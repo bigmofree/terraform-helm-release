@@ -1,5 +1,5 @@
 module app {
-    source = "./module"
+    source =  "bigmofree/release/helm"
     namespace = "default"
     name = "wordpress"
     wait = false
