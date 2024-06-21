@@ -1,4 +1,4 @@
-resource "helm_release" "app" {
+resource "helm_release" "this" {
   namespace = var.namespace
   name      = var.name
   chart     = var.chart

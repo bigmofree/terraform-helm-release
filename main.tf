@@ -1,4 +1,4 @@
-module app {
+module "wordpress" {
     source =  "bigmofree/release/helm"
     namespace = "default"
     name = "wordpress"
